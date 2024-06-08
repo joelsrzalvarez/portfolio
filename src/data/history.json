@@ -1,39 +1,69 @@
 [
   {
-    "role": "Computer technician",
+    "role": {
+      "english": "Computer technician",
+      "spanish": "Técnico informático"
+    },
     "organisation": "Badalona City Council",
     "startDate": "Oct, 2019",
     "endDate": "Apr, 2020",
-    "experiences": 
-    [
-      "Equipment repair and network maintenance", 
-      "Updating and maintenance of computers",
-      "Solve incidents at the hardware and software",
-      "Server administration",
-      "Resolution of incidents to workers"
-    ]
+    "experiences": {
+      "english": [
+        "Equipment repair and network maintenance",
+        "Updating and maintenance of computers",
+        "Solve incidents at the hardware and software",
+        "Server administration",
+        "Resolution of incidents to workers"
+      ],
+      "spanish": [
+        "Reparación de equipos y mantenimiento de redes",
+        "Actualización y mantenimiento de ordenadores",
+        "Resolver incidencias de hardware y software",
+        "Administración de servidores",
+        "Resolución de incidentes a los trabajadores"
+      ]
+    }
   },
   {
-    "role": "Junior programmer",
+    "role": {
+      "english": "Junior programmer",
+      "spanish": "Programador junior"
+    },
     "organisation": "RSM Spain",
     "startDate": "Oct, 2018",
     "endDate": "Sept, 2019",
-    "experiences": 
-    [
-      "Back-end (PHP) and front-end (JS)", 
-      "Importing invoices to NetSuite",
-      "Form validation"
-    ]
+    "experiences": {
+      "english": [
+        "Back-end (PHP) and front-end (JS)",
+        "Importing invoices to NetSuite",
+        "Form validation"
+      ],
+      "spanish": [
+        "Back-end (PHP) y front-end (JS)",
+        "Importación de facturas a NetSuite",
+        "Validación de formularios"
+      ]
+    }
   },
   {
-    "role": "Computer assistant technician",
+    "role": {
+      "english": "Computer assistant technician",
+      "spanish": "Técnico Auxiliar Informático"
+    },
     "organisation": "Col·legi Sant Gabriel",
     "startDate": "Oct, 2015",
     "endDate": "May, 2016",
-    "experiences": [
-      "IT on the School intranet",
-      "Technical assistance for students and teachers",
-      "Repair and assembly of computer equipment"
-    ]
+    "experiences": {
+      "english": [
+        "IT on the School intranet",
+        "Technical assistance for students and teachers",
+        "Repair and assembly of computer equipment"
+      ],
+      "spanish": [
+        "Responsable en la intranet de la escuela",
+        "Asistencia técnica para estudiantes y profesores",
+        "Reparación y montaje de equipos informáticos"
+      ]
+    }
   }
 ]
