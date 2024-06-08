@@ -1,15 +1,16 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { useLanguage } from '../../context/LanguageContext';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { language } = useLanguage(); 
 
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Portfolio
+        {language === 'english' ? 'Portfolio' : 'Portafolio'}
       </a>
       <div className={styles.menu}>
         <img
@@ -19,7 +20,7 @@ export const Navbar = () => {
               ? getImageUrl("nav/closeIcon.png")
               : getImageUrl("nav/menuIcon.png")
           }
-          alt="menu-button"
+          alt={language === 'english' ? 'menu-button' : 'botón de menú'}
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul
@@ -27,16 +28,24 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#about">
+              {language === 'english' ? 'About' : 'Acerca de'}
+            </a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">
+              {language === 'english' ? 'Experience' : 'Experiencia'}
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">
+              {language === 'english' ? 'Projects' : 'Proyectos'}
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">
+              {language === 'english' ? 'Contact' : 'Contacto'}
+            </a>
           </li>
         </ul>
       </div>
