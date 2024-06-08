@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Arena of Honor",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to play against friends or random people!.",
+    "skills": ["React", "Express", "Node", "Sockets", "Testing"],
+    "demo": "https://github.com/joelsrzalvarez/ArenaOfHonor",
+    "source": "https://github.com/joelsrzalvarez/ArenaOfHonor"
+  },
+  {
+    "title": "Raquel Suárez Clinic",
+    "imageSrc": "projects/raquelclinica.png",
+    "description": "Simple page for my sister with a contact form.",
+    "skills": ["PHP", "MYSQL", "AJAX", "jQuery", "Wordpress"],
+    "demo": "https://www.clinicaraquelsuarez.es"
+  }
+]
