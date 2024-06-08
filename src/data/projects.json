@@ -1,16 +1,28 @@
 [
   {
-    "title": "Arena of Honor",
+    "title": {
+      "english": "Arena of Honor",
+      "spanish": "Arena of Honor"
+    },
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to play against friends or random people!.",
+    "description": {
+      "english": "This is a project made to play against friends or random people!",
+      "spanish": "Este es un proyecto hecho para jugar contra amigos o personas al azar"
+    },
     "skills": ["React", "Express", "Node", "Sockets", "Testing"],
     "demo": "https://github.com/joelsrzalvarez/ArenaOfHonor",
     "source": "https://github.com/joelsrzalvarez/ArenaOfHonor"
   },
   {
-    "title": "Raquel Suárez Clinic",
+    "title": {
+      "english": "Raquel Suarez Clinic",
+      "spanish": "Clínica Raquel Suárez"
+    },
     "imageSrc": "projects/raquelclinica.png",
-    "description": "Simple page for my sister with a contact form.",
+    "description": {
+      "english": "Simple page for my sister with a contact form.",
+      "spanish": "Página simple para mi hermana con un formulario de contacto."
+    },
     "skills": ["PHP", "MYSQL", "AJAX", "jQuery", "Wordpress"],
     "demo": "https://www.clinicaraquelsuarez.es"
   }
