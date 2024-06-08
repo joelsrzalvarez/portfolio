@@ -49,6 +49,10 @@
     align-items: flex-start;
   }
 
+  .title {
+    margin-left: 42%;
+  }
+
   .menu {
     position: absolute;
     right: 0;
@@ -70,14 +74,9 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: linear-gradient(60deg, #21635d 0%, #51a7a0 90%);
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 16px 14px 0 #21635d;
   }
 
   .menuOpen {
