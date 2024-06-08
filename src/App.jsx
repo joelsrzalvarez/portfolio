@@ -5,17 +5,22 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { LanguageSelector } from './components/LanguageSelector/LanguageSelector';
+import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
   return (
+    <LanguageProvider>
     <div className={styles.App}>
       <Navbar />
       <Hero />
+      <LanguageSelector/>
       <About />
       <Experience />
       <Projects />
       <Contact />
     </div>
+    </LanguageProvider>
   );
 }
 
