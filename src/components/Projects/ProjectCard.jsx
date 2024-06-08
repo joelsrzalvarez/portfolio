@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
-import { useLanguage } from '../../context/LanguageContext'; // Importa el hook de contexto
+import { useLanguage } from '../../context/LanguageContext';
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
-  const { language } = useLanguage(); // Obtén el idioma actual del contexto
+  const { language } = useLanguage();
 
   return (
     <div className={styles.container}>
