@@ -1,22 +1,26 @@
 @import "../../vars.css";
 
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 0; 
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  background-color: #21635d; 
+  z-index: 1000; 
+  margin: 0;
 }
 
 .title {
   font-size: 30px;
   font-weight: 600;
+  margin-left:10%;
   text-decoration: none;
   color: var(--color-text);
 }
-
 
 .menuBtn {
   display: none;
@@ -30,6 +34,7 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  margin-left: -5%;
 }
 
 .menuItems a {
