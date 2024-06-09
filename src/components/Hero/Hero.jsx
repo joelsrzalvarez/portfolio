@@ -34,7 +34,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>{t.greeting}</h1>
         <p className={styles.description}>{t.description}</p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>{t.contactMe}</a>
+        <a href="mailto:contactojoelsuarez@gmail.com" className={styles.contactBtn}>{t.contactMe}</a>
       </div>
       <img src={getImageUrl("hero/logoImage.png")} alt={t.heroImageAlt} className={styles.heroImg}/>
       <div className={styles.topBlur} />
