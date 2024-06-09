@@ -1,8 +1,8 @@
 .languageSelector {
-  position: relative;
+  position: fixed; 
   display: inline-block;
   margin-left: 5%;
-  top: -545px;
+  top: 15px;
   z-index: 1001;
 }
 
@@ -25,7 +25,7 @@
   position: absolute;
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 1002; 
 }
 
 .dropdownContent img {
@@ -49,8 +49,8 @@
     width: 30px;
     height: 30px;
   }
-  .languageSelector{
+  .languageSelector {
     margin-left: 15%;
-    top: -800px;
+    top: 23px;
   }
 }
