@@ -1,64 +1,83 @@
 [
-    {
-        "title": "ISDI Coders",
-        "study": {
-            "english": "Bootcamp Web Development Fullstack",
-            "spanish": "Bootcamp Desarrollo Web Full Stack"
-        },
-        "time": "Feb. 2024 - May. 2024",
-        "summary": {
-            "english":[ 
-                "During my time outside the working world, I decided to invest in my training and update myself with the latest technologies. I completed a web application development bootcamp, where I gained skills in MongoDB, Express, Testing, React, Node.js and other relevant technologies. My passion for technological innovation drives me to continue learning and contributing to the success of new projects"
-            ],
-            "spanish":[
-                "Durante mi tiempo fuera del mundo laboral, decidí invertir en mi formación y actualizarme con las últimas tecnologías. Completé un bootcamp de desarrollo de aplicaciones web, donde adquirí habilidades en MongoDB, Express, Testing, React, Node.js y otras tecnologías relevantes. Mi pasión por la innovación tecnológica me impulsa a seguir aprendiendo y contribuyendo al éxito de nuevos proyectos"
-            ]
-          }
-    },
-    {
-        "title": "FPLlefia",
-        "study": {
-            "english": "CFGS Web App Development",
-            "spanish": "CFGS Desarrollo App Web"
-        },
-        "time": "2017 - 2019",
-        "summary": {
-            "english": [
-              "Conflict resolution ",
-              "Communication ",
-              "Effective organization",
-              "Teamwork "
-            ],
-            "spanish": [
-              "Resolución de conflictos",
-              "Comunicación ",
-              "Organización eficaz",
-              "Trabajo en equipo"
-            ]
-          }
-    },
-    {
-        "title": "Col.legi Sant Gabriel",
-        "study": {
-            "english": "CFGM Microcomputer Systems and Networks",
-            "spanish": "CFGM Sistemas Microinformáticos y Redes"
-        },
-        "time": "2017 - 2019",
-        "summary": {
-            "english": [
-              "Equipment repair and network maintenance",
-              "Updating and maintenance of computers",
-              "Solve incidents at the hardware and software",
-              "Server administration",
-              "Resolution of incidents to workers"
-            ],
-            "spanish": [
-              "Reparación de equipos y mantenimiento de redes",
-              "Actualización y mantenimiento de ordenadores",
-              "Resolver incidencias de hardware y software",
-              "Administración de servidores",
-              "Resolución de incidencias a los trabajadores"
-            ]
-          }
-    }
+  {
+      "title": "ISDI Coders",
+      "study": {
+          "english": "Bootcamp Web Development Fullstack",
+          "spanish": "Bootcamp Desarrollo Web Full Stack",
+          "catalan": "Bootcamp Desenvolupament Web Full Stack"
+      },
+      "time": "Feb. 2024 - May. 2024",
+      "summary": {
+          "english":[ 
+              "During my time outside the working world, I decided to invest in my training and update myself with the latest technologies. I completed a web application development bootcamp, where I gained skills in MongoDB, Express, Testing, React, Node.js and other relevant technologies. My passion for technological innovation drives me to continue learning and contributing to the success of new projects"
+          ],
+          "spanish":[
+              "Durante mi tiempo fuera del mundo laboral, decidí invertir en mi formación y actualizarme con las últimas tecnologías. Completé un bootcamp de desarrollo de aplicaciones web, donde adquirí habilidades en MongoDB, Express, Testing, React, Node.js y otras tecnologías relevantes. Mi pasión por la innovación tecnológica me impulsa a seguir aprendiendo y contribuyendo al éxito de nuevos proyectos"
+          ],
+          "catalan":[
+              "Durant el meu temps fora del món laboral, vaig decidir invertir en la meva formació i actualitzar-me amb les últimes tecnologies. Vaig completar un bootcamp de desenvolupament d'aplicacions web, on vaig adquirir habilitats en MongoDB, Express, Testing, React, Node.js i altres tecnologies rellevants. La meva passió per la innovació tecnològica em impulsa a seguir aprenent i contribuint a l'èxit de nous projectes"
+          ]
+      }
+  },
+  {
+      "title": "FPLlefia",
+      "study": {
+          "english": "CFGS Web App Development",
+          "spanish": "CFGS Desarrollo App Web",
+          "catalan": "CFGS Desenvolupament d'Aplicacions Web"
+      },
+      "time": "2017 - 2019",
+      "summary": {
+          "english": [
+            "Conflict resolution",
+            "Communication",
+            "Effective organization",
+            "Teamwork"
+          ],
+          "spanish": [
+            "Resolución de conflictos",
+            "Comunicación",
+            "Organización eficaz",
+            "Trabajo en equipo"
+          ],
+          "catalan": [
+            "Resolució de conflictes",
+            "Comunicació",
+            "Organització eficaç",
+            "Treball en equip"
+          ]
+      }
+  },
+  {
+      "title": "Col.legi Sant Gabriel",
+      "study": {
+          "english": "CFGM Microcomputer Systems and Networks",
+          "spanish": "CFGM Sistemas Microinformáticos y Redes",
+          "catalan": "CFGM Sistemes Microinformàtics i Xarxes"
+      },
+      "time": "2017 - 2019",
+      "summary": {
+          "english": [
+            "Equipment repair and network maintenance",
+            "Updating and maintenance of computers",
+            "Solve incidents at the hardware and software",
+            "Server administration",
+            "Resolution of incidents to workers"
+          ],
+          "spanish": [
+            "Reparación de equipos y mantenimiento de redes",
+            "Actualización y mantenimiento de ordenadores",
+            "Resolver incidencias de hardware y software",
+            "Administración de servidores",
+            "Resolución de incidencias a los trabajadores"
+          ],
+          "catalan": [
+            "Reparació d'equips i manteniment de xarxes",
+            "Actualització i manteniment d'ordinadors",
+            "Resoldre incidències de maquinari i programari",
+            "Administració de servidors",
+            "Resolució d'incidències als treballadors"
+          ]
+      }
+  }
 ]

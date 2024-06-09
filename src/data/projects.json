@@ -2,12 +2,14 @@
   {
     "title": {
       "english": "Arena of Honor",
-      "spanish": "Arena of Honor"
+      "spanish": "Arena of Honor",
+      "catalan": "Arena of Honor"
     },
     "imageSrc": "projects/project.png",
     "description": {
       "english": "This is a project made to play against friends or random people!",
-      "spanish": "Este es un proyecto hecho para jugar contra amigos o personas al azar"
+      "spanish": "Este es un proyecto hecho para jugar contra amigos o personas al azar",
+      "catalan": "Aquest és un projecte fet per jugar contra amics o persones a l'atzar!"
     },
     "skills": ["React", "Express", "Node", "Sockets", "Testing"],
     "demo": "https://github.com/joelsrzalvarez/ArenaOfHonor",
@@ -16,12 +18,14 @@
   {
     "title": {
       "english": "Raquel Suarez Clinic",
-      "spanish": "Clínica Raquel Suárez"
+      "spanish": "Clínica Raquel Suárez",
+      "catalan": "Clínica Raquel Suárez"
     },
     "imageSrc": "projects/raquelclinica.png",
     "description": {
       "english": "Simple page for my sister with a contact form.",
-      "spanish": "Página simple para mi hermana con un formulario de contacto."
+      "spanish": "Página simple para mi hermana con un formulario de contacto.",
+      "catalan": "Pàgina senzilla per a la meva germana amb un formulari de contacte."
     },
     "skills": ["PHP", "MYSQL", "AJAX", "jQuery", "Wordpress"],
     "demo": "https://www.clinicaraquelsuarez.es"

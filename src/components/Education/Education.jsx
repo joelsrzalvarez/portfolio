@@ -3,12 +3,26 @@ import styles from "./Education.module.css";
 import education from "../../data/education.json";
 import { useLanguage } from '../../context/LanguageContext';
 
+const translations = {
+  english: {
+    education: 'Education'
+  },
+  spanish: {
+    education: 'Educación'
+  },
+  catalan: {
+    education: 'Educació'
+  }
+};
+
 export const Education = () => {
   const { language } = useLanguage(); 
 
+  const t = translations[language];
+
   return (
     <section className={styles.container} id="education">
-      <h2 className={styles.title}>{language === 'english' ? 'Education' : 'Educación'}</h2>
+      <h2 className={styles.title}>{t.education}</h2>
       <div className={styles.content}>
         <ul className={styles.educationList}>
           {education.map((eduItem, id) => {

@@ -2,7 +2,8 @@
   {
     "role": {
       "english": "Computer technician",
-      "spanish": "Técnico informático"
+      "spanish": "Técnico informático",
+      "catalan": "Tècnic informàtic"
     },
     "organisation": "Badalona City Council",
     "startDate": "Oct, 2019",
@@ -21,13 +22,21 @@
         "Resolver incidencias de hardware y software",
         "Administración de servidores",
         "Resolución de incidencias a los trabajadores"
+      ],
+      "catalan": [
+        "Reparació d'equips i manteniment de xarxes",
+        "Actualització i manteniment d'ordinadors",
+        "Resoldre incidències de maquinari i programari",
+        "Administració de servidors",
+        "Resolució d'incidències als treballadors"
       ]
     }
   },
   {
     "role": {
       "english": "Junior programmer",
-      "spanish": "Programador junior"
+      "spanish": "Programador junior",
+      "catalan": "Programador júnior"
     },
     "organisation": "RSM Spain",
     "startDate": "Oct, 2018",
@@ -42,13 +51,19 @@
         "Back-end (PHP) y front-end (JS)",
         "Importación de facturas a NetSuite",
         "Validación de formularios"
+      ],
+      "catalan": [
+        "Back-end (PHP) i front-end (JS)",
+        "Importació de factures a NetSuite",
+        "Validació de formularis"
       ]
     }
   },
   {
     "role": {
       "english": "Computer assistant technician",
-      "spanish": "Técnico Auxiliar Informático"
+      "spanish": "Técnico Auxiliar Informático",
+      "catalan": "Tècnic Auxiliar Informàtic"
     },
     "organisation": "Col·legi Sant Gabriel",
     "startDate": "Oct, 2015",
@@ -63,6 +78,11 @@
         "Responsable en la intranet de la escuela",
         "Asistencia técnica para estudiantes y profesores",
         "Reparación y montaje de equipos informáticos"
+      ],
+      "catalan": [
+        "Responsable a la intranet de l'escola",
+        "Assistència tècnica per a estudiants i professors",
+        "Reparació i muntatge d'equips informàtics"
       ]
     }
   }

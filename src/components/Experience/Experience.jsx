@@ -5,12 +5,26 @@ import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 import { useLanguage } from '../../context/LanguageContext';
 
+const translations = {
+  english: {
+    experience: 'Experience'
+  },
+  spanish: {
+    experience: 'Experiencia'
+  },
+  catalan: {
+    experience: 'Experiència'
+  }
+};
+
 export const Experience = () => {
-  const { language } = useLanguage(); 
+  const { language } = useLanguage();
+
+  const t = translations[language];
 
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>{language === 'english' ? 'Experience' : 'Experiencia'}</h2>
+      <h2 className={styles.title}>{t.experience}</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
