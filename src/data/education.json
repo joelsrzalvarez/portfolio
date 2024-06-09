@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Col.legi Sant Gabriel",
+        "study": {
+            "english": "CFGM Microcomputer Systems and Networks",
+            "spanish": "CFGM Sistemas Microinformáticos y Redes"
+        },
+        "time": "2017 - 2019",
+        "summary": {
+            "english": [
+              "Equipment repair and network maintenance",
+              "Updating and maintenance of computers",
+              "Solve incidents at the hardware and software",
+              "Server administration",
+              "Resolution of incidents to workers"
+            ],
+            "spanish": [
+              "Reparación de equipos y mantenimiento de redes",
+              "Actualización y mantenimiento de ordenadores",
+              "Resolver incidencias de hardware y software",
+              "Administración de servidores",
+              "Resolución de incidencias a los trabajadores"
+            ]
+          }
+    }
+]

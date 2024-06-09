@@ -38,6 +38,11 @@ export const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="#education">
+              {language === 'english' ? 'Education' : 'Educación'}
+            </a>
+          </li>
+          <li>
             <a href="#projects">
               {language === 'english' ? 'Projects' : 'Proyectos'}
             </a>
