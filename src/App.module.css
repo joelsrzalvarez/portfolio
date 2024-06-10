@@ -64,4 +64,10 @@
   .contactWsp {
     right: 85%;
   }
+  .contactWsp {
+    bottom: 5px;
+  }
+  .scrollTop {
+    bottom: 5px;
+  }
 }
