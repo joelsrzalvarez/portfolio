@@ -27,33 +27,29 @@ export const Experience = () => {
       <h2 className={styles.title}>{t.experience}</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
+          {skills.map((skill, id) => (
+            <div key={id} className={styles.skill}>
+              <div className={styles.skillImageContainer}>
+                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
               </div>
-            );
-          })}
+              <p>{skill.title}</p>
+            </div>
+          ))}
         </div>
         <ul className={styles.history}>
-          {history.map((historyItem, id) => {
-            return (
-              <li key={id} className={styles.historyItem}>
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role[language]}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-                  <ul>
-                    {historyItem.experiences[language].map((experience, expId) => {
-                      return <li key={expId}>{experience}</li>;
-                    })}
-                  </ul>
-                </div>
-              </li>
-            );
-          })}
+          {history.map((historyItem, id) => (
+            <li key={id} className={styles.historyItem}>
+              <div className={styles.historyItemDetails}>
+                <h3>{`${historyItem.role[language]}, ${historyItem.organisation[language]}`}</h3>
+                <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                <ul>
+                  {historyItem.experiences[language].map((experience, expId) => (
+                    <li key={expId}>{experience}</li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </section>

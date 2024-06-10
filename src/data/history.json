@@ -5,7 +5,11 @@
       "spanish": "Técnico informático",
       "catalan": "Tècnic informàtic"
     },
-    "organisation": "Badalona City Council",
+    "organisation": {
+      "english": ["Badalona City Council"],
+      "spanish": ["Ayuntamiento de Badalona"],
+      "catalan": ["Ajuntament de Badalona"]
+    },
     "startDate": "Oct, 2019",
     "endDate": "Apr, 2020",
     "experiences": {
@@ -38,7 +42,11 @@
       "spanish": "Programador junior",
       "catalan": "Programador júnior"
     },
-    "organisation": "RSM Spain",
+    "organisation": {
+      "english": ["RSM Spain"],
+      "spanish": ["RSM Spain"],
+      "catalan": ["RSM Spain"]
+    },
     "startDate": "Oct, 2018",
     "endDate": "Sept, 2019",
     "experiences": {
@@ -65,7 +73,11 @@
       "spanish": "Técnico Auxiliar Informático",
       "catalan": "Tècnic Auxiliar Informàtic"
     },
-    "organisation": "Col·legi Sant Gabriel",
+    "organisation": {
+      "english": ["Sant Gabriel Highschool"],
+      "spanish": ["Colegio Sant Gabriel"],
+      "catalan": ["Col.legi Sant Gabriel"]
+    },
     "startDate": "Oct, 2015",
     "endDate": "May, 2016",
     "experiences": {
