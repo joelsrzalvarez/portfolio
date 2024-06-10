@@ -1,6 +1,40 @@
 [
   {
     "role": {
+      "english": "Systems technician",
+      "spanish": "Técnico de sistemas",
+      "catalan": "Tècnic de sistemes"
+    },
+    "organisation": {
+      "english": ["La Salut Hostel"],
+      "spanish": ["Hostal La Salut"],
+      "catalan": ["Hostal La Salut"]
+    },
+    "startDate": "Jul, 2020",
+    "endDate": "Ago, 2023",
+    "experiences": {
+      "english": [
+        "Equipment repair and network maintenance",
+        "Solve incidents at the hardware",
+        "Server administration",
+        "Website maintenance"
+      ],
+      "spanish": [
+        "Reparación de equipos y mantenimiento de la red",
+        "Resolver incidencias de hardware",
+        "Administración del servidor",
+        "Mantenimiento web"
+      ],
+      "catalan": [
+        "Reparació d'equips i manteniment de la xarxa",
+        "Resoldre incidències de maquinari",
+        "Administració del servidor",
+        "Manteniment de l'aplicació web"
+      ]
+    }
+  },
+  {
+    "role": {
       "english": "Computer technician",
       "spanish": "Técnico informático",
       "catalan": "Tècnic informàtic"
