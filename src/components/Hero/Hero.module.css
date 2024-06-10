@@ -50,16 +50,20 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.heroImg {
+  width: 25%;
+  z-index: 1;
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
   .contactBtn {
     background-color: #21635d;
   }
-}
 
-.heroImg {
-  width: 50%;
-  z-index: 1;
-  border-radius: 50%;
+  .heroImg{
+    width: 50%;
+  }
 }
 
 @keyframes floating {
